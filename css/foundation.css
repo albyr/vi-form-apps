@@ -1190,10 +1190,12 @@ h1 {
   padding-top: 10rem;
   padding-bottom: 10rem;
   /* Image */
-  background: url(../img/background.jpg) center center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 h2 {
   font-size: 1.6875rem;
